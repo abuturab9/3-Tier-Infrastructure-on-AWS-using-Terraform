@@ -50,7 +50,7 @@ Solution: Once the internet connection was re-established, re-running terraform 
 Clone the repository:
 
 git clone https://github.com/abuturab9/3-Tier-Infrastructure-on-AWS-using-Terraform.git
-cd YOUR-REPO-NAME
+cd 3-Tier-Infrastructure-on-AWS-using-Terraform
 
 Initialize Terraform:
 terraform init
