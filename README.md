@@ -46,4 +46,21 @@ Challenge: An unexpected network drop during execution caused a no such host DNS
 
 Solution: Once the internet connection was re-established, re-running terraform apply allowed Terraform's state management engine to seamlessly detect existing resources and complete the remaining provisioning lifecycle without data corruption.
 
+🚀 Quickstart Guide
+Clone the repository:
 
+git clone https://github.com/abuturab9/3-Tier-Infrastructure-on-AWS-using-Terraform.git
+cd YOUR-REPO-NAME
+
+Initialize Terraform:
+terraform init
+
+Review the execution plan:
+terraform plan
+
+Deploy the infrastructure:
+terraform apply
+Clean up resources (To prevent unnecessary AWS costs):
+
+Bash
+terraform destroy
